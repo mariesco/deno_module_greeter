@@ -11,6 +11,6 @@ var Greeting;
  * This function creates a greeting based on the name and the greeting parameter specified.
  */
 function greet(name, greeting = Greeting.Hello) {
-    return `${greeting} ${name} jeje`;
+    return `${greeting} ${name} jeje again`;
 }
 exports.greet = greet;

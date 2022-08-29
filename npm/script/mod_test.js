@@ -28,5 +28,5 @@ const mod_js_1 = require("./mod.js");
 const asserts_js_1 = require("./deps/deno.land/std@0.134.0/testing/asserts.js");
 dntShim.Deno.test("greet default", () => {
     const greeting = (0, mod_js_1.greet)("Typescript Congress");
-    (0, asserts_js_1.assertEquals)(greeting, "Hello Typescript Congress jeje");
+    (0, asserts_js_1.assertEquals)(greeting, "Hello Typescript Congress jeje again");
 });
