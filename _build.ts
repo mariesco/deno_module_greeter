@@ -10,7 +10,7 @@ await build({
   },
   package: {
     //package.json properties
-    name: "@mariesco/DenoModuleGreeter",
+    name: "@mariesco/deno_module_greeter",
     version: Deno.args[0],
     description: "a Deno project for try write universal modules for Deno, Node, and browser",
     license: "MIT",
