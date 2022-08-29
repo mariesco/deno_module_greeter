@@ -1,0 +1,24 @@
+{
+  "module": "./esm/mod.js",
+  "main": "./script/mod.js",
+  "types": "./types/mod.d.ts",
+  "name": "@mariesco/DenoModuleGreeter",
+  "version": "0.1.1",
+  "description": "a Deno project for try write universal modules for Deno, Node, and browser",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./esm/mod.js",
+      "require": "./script/mod.js",
+      "types": "./types/mod.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "node test_runner.js"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.37",
+    "chalk": "4.1.2",
+    "@deno/shim-deno": "~0.9.0"
+  }
+}
